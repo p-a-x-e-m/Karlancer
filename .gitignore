@@ -1,0 +1,40 @@
+# Runtime artifacts
+karlancer.db
+karlancer_monitor.log
+chromedriver.log
+page_source.html
+error_*.png
+proposal_error.png
+project_error.png
+search_error.png
+
+# Secrets and credentials - never commit these
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
+secrets.json
+credentials.json
+service-account*.json
+*token*.json
+
+# Databases and dumps
+*.sqlite
+*.sqlite3
+*.db-journal
+*.dump
+*.sql.gz
+*.bak
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
